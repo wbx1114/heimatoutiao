@@ -1,13 +1,13 @@
 <template>
   <div>
-    <router-view></router-view>
+    <transition name="van-slide-left" mode="out-in">
+      <router-view></router-view>
+    </transition>
   </div>
 </template>
 
 <script>
-export default {
-}
+export default {}
 </script>
 
 <style scoped></style>
-yarn add vuex-persistedstate@3.2.1

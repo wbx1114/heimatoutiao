@@ -29,6 +29,11 @@ const routes = [
   {
     path: '/login',
     component: () => import('@/views/login')
+  },
+  {
+    path: '/search',
+    // eslint-disable-next-line spaced-comment
+    component: () => import(/*webpackChunkName:"Search" */ '@/views/Search')
   }
 ]
 
